@@ -17,4 +17,6 @@
   <resource name="oBathtub" type="RESOURCE"/>
   <resource name="oBathsink" type="RESOURCE"/>
   <resource name="oToilet" type="RESOURCE"/>
+  <resource name="oAppearingBlock" type="RESOURCE"/>
+  <resource name="oPlant" type="RESOURCE"/>
 </resources>

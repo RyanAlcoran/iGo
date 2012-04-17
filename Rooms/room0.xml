@@ -93,7 +93,57 @@
       <stretch>false</stretch>
     </backgroundDef>
   </backgrounds>
-  <enableViews>false</enableViews>
+  <enableViews>true</enableViews>
+  <views>
+    <view>
+      <visibleOnRoomStart>true</visibleOnRoomStart>
+      <viewInRoom height="300" width="400" x="0" y="400"/>
+      <portOnScreen height="300" width="400" x="0" y="0"/>
+      <objectFollowing hBorder="100" hSpeed="4" vBorder="100" vSpeed="4">oPlayer</objectFollowing>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+  </views>
   <instances>
     <instance>
       <object>oHousebackwall</object>
@@ -103,19 +153,7 @@
     </instance>
     <instance>
       <object>oHousebackwall</object>
-      <position x="48" y="832"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oHousebackwall</object>
       <position x="112" y="832"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oHousebackwall</object>
-      <position x="144" y="832"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -158,12 +196,6 @@
     <instance>
       <object>oHousebackwall</object>
       <position x="528" y="832"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oHousebackwall</object>
-      <position x="560" y="832"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -523,13 +555,7 @@
     </instance>
     <instance>
       <object>oHousebackwall</object>
-      <position x="176" y="848"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oHousebackwall</object>
-      <position x="176" y="832"/>
+      <position x="256" y="832"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -541,13 +567,37 @@
     </instance>
     <instance>
       <object>oHousebackwall</object>
-      <position x="256" y="832"/>
+      <position x="240" y="832"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
     <instance>
       <object>oHousebackwall</object>
-      <position x="240" y="832"/>
+      <position x="560" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oHousebackwall</object>
+      <position x="160" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oHousebackwall</object>
+      <position x="144" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oHousebackwall</object>
+      <position x="192" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oHousebackwall</object>
+      <position x="48" y="832"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -793,55 +843,7 @@
     </instance>
     <instance>
       <object>oPlatformHouse</object>
-      <position x="48" y="816"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatformHouse</object>
-      <position x="64" y="816"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatformHouse</object>
-      <position x="80" y="816"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatformHouse</object>
-      <position x="96" y="816"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatformHouse</object>
       <position x="112" y="816"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatformHouse</object>
-      <position x="128" y="816"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatformHouse</object>
-      <position x="144" y="816"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatformHouse</object>
-      <position x="144" y="816"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatformHouse</object>
-      <position x="160" y="816"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -937,25 +939,7 @@
     </instance>
     <instance>
       <object>oPlatformHouse</object>
-      <position x="256" y="816"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatformHouse</object>
       <position x="272" y="816"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>bed</object>
-      <position x="48" y="848"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlayer</object>
-      <position x="80" y="848"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -1279,12 +1263,6 @@
     </instance>
     <instance>
       <object>oPlatform</object>
-      <position x="32" y="640"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatform</object>
       <position x="64" y="640"/>
       <creationCode/>
       <locked>false</locked>
@@ -1387,12 +1365,6 @@
     </instance>
     <instance>
       <object>oPlatform</object>
-      <position x="48" y="624"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatform</object>
       <position x="80" y="624"/>
       <creationCode/>
       <locked>false</locked>
@@ -1466,12 +1438,6 @@
     <instance>
       <object>oPlatform</object>
       <position x="464" y="624"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>oPlatform</object>
-      <position x="496" y="624"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -1681,13 +1647,601 @@
     </instance>
     <instance>
       <object>oPlatform</object>
-      <position x="64" y="608"/>
+      <position x="16" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="48" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="80" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="112" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="144" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="176" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="208" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="240" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="272" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="304" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="336" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="368" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="400" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="432" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="464" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="496" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="528" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="560" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="592" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="48" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="64" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="80" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="32" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="48" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="64" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="80" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="96" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="112" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="112" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="96" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="128" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="144" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="144" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="160" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="176" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="176" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="160" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="192" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="192" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="208" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="208" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="224" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="224" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="240" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="240" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="256" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="272" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="272" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="256" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="288" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="304" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="288" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="304" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="320" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="336" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="336" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="320" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="352" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="368" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="384" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="384" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="368" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="352" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="400" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="400" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="416" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="432" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="432" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="416" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="448" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="448" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="464" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="464" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="480" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="496" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="496" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="496" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="480" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="512" y="624"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="528" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="528" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="512" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="560" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="544" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="560" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="576" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatform</object>
+      <position x="592" y="656"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlayer</object>
+      <position x="80" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlant</object>
+      <position x="560" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oAppearingBlock</object>
+      <position x="192" y="848"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oAppearingBlock</object>
+      <position x="208" y="864"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
     <instance>
       <object>oPlatformHouse</object>
-      <position x="224" y="848"/>
+      <position x="96" y="816"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatformHouse</object>
+      <position x="80" y="816"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatformHouse</object>
+      <position x="64" y="816"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatformHouse</object>
+      <position x="48" y="816"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatformHouse</object>
+      <position x="160" y="816"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatformHouse</object>
+      <position x="144" y="816"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oPlatformHouse</object>
+      <position x="128" y="816"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>oAppearingBlock</object>
+      <position x="176" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>bed</object>
+      <position x="48" y="848"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
